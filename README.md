@@ -25,7 +25,7 @@ Before running the script, ensure you have the following installed on your Linux
    ```sh
    git clone https://github.com/kreptons/KP-MASK-URL.git
 
-2. ***Open and Run:**
+2. **Open and Run:**
 
   ```sh
   cd KP-MASK-URL
