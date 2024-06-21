@@ -30,12 +30,8 @@ Before running the script, ensure you have the following installed on your Linux
    ```sh
    cd KP-MASK-URL
 
-3.**Give Permission**
+3.**Give Permission and Run**
 
    ```sh
     chmod +x kpmask.sh
-
-4.**Run:**
-
-   ```sh
     ./kpmask.sh
