@@ -36,6 +36,4 @@ Before running the script, ensure you have the following installed on your Linux
     chmod +x kpmask.sh
     ./kpmask.sh
 
-### ENJOY
-
 
