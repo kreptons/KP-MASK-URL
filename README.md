@@ -35,3 +35,6 @@ Before running the script, ensure you have the following installed on your Linux
    ```sh
     chmod +x kpmask.sh
     ./kpmask.sh
+
+# Disclaimers
+The author takes no responsibility for how this tool will be used. Do not use it for malicious purposes!
